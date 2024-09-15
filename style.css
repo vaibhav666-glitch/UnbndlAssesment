@@ -1,5 +1,6 @@
+
 #nav{
-    background-color: #e3c998;
+    background: #FFF1E6;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -15,4 +16,46 @@
     list-style: none;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+
+#crousel {
+    padding: 20px 0;
+    text-align: start;
+}
+
+
+
+.wrapper {
+    width: 100%;
+    height: 30%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+}
+
+.wrapper img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.button-holder {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+
+.button {
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.img{
+    width: 50%;
+    object-fit: cover;
 }
